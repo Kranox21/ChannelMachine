@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1",
+	"FriendlyName": "Channel Machine",
+	"Description": "RGBA tool to pack/unpack and queue tasks. Have inbuilt channel packer editor in Unreal Engine",
+	"Category": "Other",
+	"CreatedBy": "Ashton Jensen",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ChannelMachine",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
