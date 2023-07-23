@@ -6,4 +6,6 @@ root.withdraw()
 
 folder_path = filedialog.askdirectory()
 
+folder_path + "/"
+
 print(folder_path)
