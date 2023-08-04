@@ -1,5 +1,6 @@
-# Channel Machine
-## Texture packing and unpacking tool built-in Unreal Engine
+![ChannelMachineLogoTitle](https://github.com/Kranox21/ChannelMachine/assets/11131166/8b519289-66fa-4f26-a9f4-c37c861c5de3)
+
+# Texture packing and unpacking channel tool built-in Unreal Engine
 
 
 ## Getting Started:
@@ -7,6 +8,7 @@
 
 - A new window will pop up, you can use the window as is, or what I personally do is Dock the window along Details and World Settings.
 
+![Screenshot 2023-08-03 235342](https://github.com/Kranox21/ChannelMachine/assets/11131166/efc4ded4-c6f5-4aa2-b2db-10eff72f48cc)
 
 
 ## Attributes Settings:
@@ -15,11 +17,12 @@
   - Unpack Channels
 - Each tab comes with settings along with a preview of input results
 
-
 ### Pack Channels:
 
+![Screenshot 2023-08-03 235919](https://github.com/Kranox21/ChannelMachine/assets/11131166/1a533c77-39ad-4065-a9a1-df82c53085fa)
+
 - Enable Batch Settings
-  - This will determine whether to set Texture input from a list or individually.
+  - This will determine whether to set Texture input from an array list or indivisual inputs.
   - This will also determine if Channel Machine should Batch Bake or not.
 
  - RGBA Preview
@@ -49,6 +52,8 @@
 
  ### Unpack Channels:
 
+![Screenshot 2023-08-04 000956](https://github.com/Kranox21/ChannelMachine/assets/11131166/68586ac9-5622-4220-a6c8-3f20abaaf8bc)
+
  - Grayscale Preview
    - Across the board will be 4 boxes of previews.
    - These boxes will be filled with one Packed Texture or Color map.
@@ -62,6 +67,8 @@
      - When you add a texture it will update and preview the results of what 3 - 4 grayscale maps will look like.
 
 ## Export Settings:
+
+![Screenshot 2023-08-04 000450](https://github.com/Kranox21/ChannelMachine/assets/11131166/a45dc05c-5ae5-4b75-b724-ebff68b1aec7)
 
 - Project Folder Location
   - This is where you input your folder path where you wish to place your texture outputs will be.
@@ -89,8 +96,28 @@
     - This will set the format of the textures when exporting
     - 'Note' if selected .PNG but don't enable alpha, will automatically set to .JPG, Assign white blank texture to Alpha in order to properly export for .PNG format.
   - Compression Quality
-    - Whether the texture should be compressed or uncompressed 
+    - Whether the texture should be compressed or uncompressed
   - Overwrite File
     - Whether to overwrite a file that exists in the folder location or not
   - Async
-    - This is a runtime feature mainly for games can be on or off
+    - This is a runtime feature mainly for games that can be on or off
+   
+
+## Material Assembly:
+
+![Screenshot 2023-08-04 000034](https://github.com/Kranox21/ChannelMachine/assets/11131166/ba1dfee5-5966-4dcf-89bb-010eb423d551)
+
+- Master Material Input
+  - Determines the selected master material you wish to use to create a material instance
+  - This will also take the current material instance you assign and convert it to its Master/Parent Material
+  - You can fill this in optionally if you leave it blank, will skip this process altogether
+ 
+- Assembly Textures
+  - Base Color Input
+    - Assign base color texture that will be applied to your material instance
+  - Normal Map Input
+    - Assign Normal map texture that will be applied to your material instance
+
+- Dropdown Parameter Selections
+  - These dropdowns will check all the parameters available from the Master Material input and would have to assign them to given properties
+  - This will save time from manually assigning textures to material instances themselves
