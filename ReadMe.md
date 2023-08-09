@@ -1,15 +1,13 @@
-![ChannelMachineLogoTitle](https://github.com/Kranox21/ChannelMachine/assets/11131166/8b519289-66fa-4f26-a9f4-c37c861c5de3)
+![ChannelMachineLogoTitle](https://github.com/Kranox21/ChannelMachine/assets/11131166/ce3af0e2-17fd-48b9-b311-079d85146329)
 
 # Texture packing and unpacking channel tool built-in Unreal Engine
-
 
 ## Getting Started:
 - To open the Channel Machine Editor click the icon at the top of the toolbar to launch the Utility Widget Tool
 
 - A new window will pop up, you can use the window as is, or what I personally do is Dock the window along Details and World Settings.
 
-![Screenshot 2023-08-03 235342](https://github.com/Kranox21/ChannelMachine/assets/11131166/efc4ded4-c6f5-4aa2-b2db-10eff72f48cc)
-
+![Screenshot 2023-08-03 235342](https://github.com/Kranox21/ChannelMachine/assets/11131166/20d5a248-9a6d-4d17-ba36-93ee8163e537)
 
 ## Attributes Settings:
 - Within Attributes Settings will have two channel tabs
@@ -19,11 +17,13 @@
 
 ### Pack Channels:
 
-![Screenshot 2023-08-03 235919](https://github.com/Kranox21/ChannelMachine/assets/11131166/1a533c77-39ad-4065-a9a1-df82c53085fa)
+![Screenshot 2023-08-03 235919](https://github.com/Kranox21/ChannelMachine/assets/11131166/15c83447-15f7-47aa-90ae-982b20f23a58)
 
 - Enable Batch Settings
   - This will determine whether to set Texture input from an array list or indivisual inputs.
   - This will also determine if Channel Machine should Batch Bake or not.
+
+![Screenshot 2023-08-04 000153](https://github.com/Kranox21/ChannelMachine/assets/11131166/8b39af46-d44b-40ee-bbd8-4e9c2dff8111)
 
  - RGBA Preview
    - This will preview a low-resolution sample output from your inputs from RGB Inputs
@@ -52,7 +52,7 @@
 
  ### Unpack Channels:
 
-![Screenshot 2023-08-04 000956](https://github.com/Kranox21/ChannelMachine/assets/11131166/68586ac9-5622-4220-a6c8-3f20abaaf8bc)
+![Screenshot 2023-08-04 000956](https://github.com/Kranox21/ChannelMachine/assets/11131166/ba63805e-f6e2-47fb-8495-f4f6a2cd220a)
 
  - Grayscale Preview
    - Across the board will be 4 boxes of previews.
@@ -68,7 +68,7 @@
 
 ## Export Settings:
 
-![Screenshot 2023-08-04 000450](https://github.com/Kranox21/ChannelMachine/assets/11131166/a45dc05c-5ae5-4b75-b724-ebff68b1aec7)
+![Screenshot 2023-08-04 000450](https://github.com/Kranox21/ChannelMachine/assets/11131166/a0a708c6-4185-41bf-b3f7-394cc1bd7cbd)
 
 - Project Folder Location
   - This is where you input your folder path where you wish to place your texture outputs will be.
@@ -105,7 +105,7 @@
 
 ## Material Assembly:
 
-![Screenshot 2023-08-04 000034](https://github.com/Kranox21/ChannelMachine/assets/11131166/ba1dfee5-5966-4dcf-89bb-010eb423d551)
+![Screenshot 2023-08-04 000034](https://github.com/Kranox21/ChannelMachine/assets/11131166/ab912987-0a3f-49b3-ac1a-a437170689ee)
 
 - Master Material Input
   - Determines the selected master material you wish to use to create a material instance
