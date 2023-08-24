@@ -1,18 +1,17 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "0.3.1a",
+	"VersionName": "1.0",
 	"FriendlyName": "Channel Machine",
 	"Description": "An Open Source texture editor tool to pack/unpack texture channels.",
 	"Category": "Editor",
 	"CreatedBy": "ashton3ddesigns",
-	"CreatedByURL": "https://ashton3ddesigns.com/",
+	"CreatedByURL": "https://github.com/Kranox21/ChannelMachine",
 	"DocsURL": "https://github.com/Kranox21/ChannelMachine",
 	"MarketplaceURL": "",
-	"SupportURL": "https://github.com/Kranox21/ChannelMachine",
+	"SupportURL": "",
 	"EngineVersion": "5.2.0",
 	"CanContainContent": true,
-	"IsBetaVersion": true,
 	"Installed": true,
 	"Modules": [
 		{
@@ -24,6 +23,10 @@
 	"Plugins": [
 		{
 			"Name": "PythonScriptPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
 			"Enabled": true
 		}
 	]

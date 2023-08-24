@@ -15,5 +15,8 @@ class CHANNELMACHINE_API UChannelMachineBlueprints : public UBlueprintFunctionLi
 	GENERATED_BODY()
 		UFUNCTION(BlueprintCallable, Category = "Channel Machine Blueprints")
 		static void SetContentBrowserPath(FString Path);
+
+		UFUNCTION(BlueprintCallable, Category = "Channel Machine Blueprints")
+		static void SetHasAlphaChannel(UTexture* Texture2D, bool False);
 	
 };
