@@ -17,13 +17,12 @@
 
 ### Pack Channels:
 
-![Screenshot 2023-08-03 235919](https://github.com/Kranox21/ChannelMachine/assets/11131166/15c83447-15f7-47aa-90ae-982b20f23a58)
-
+![Screenshot 2023-08-23 204805](https://github.com/Kranox21/ChannelMachine/assets/11131166/ae8abc2f-deb8-44de-95c0-53fe1452b956)
 - Enable Batch Settings
   - This will determine whether to set Texture input from an array list or indivisual inputs.
   - This will also determine if Channel Machine should Batch Bake or not.
 
-![Screenshot 2023-08-04 000153](https://github.com/Kranox21/ChannelMachine/assets/11131166/8b39af46-d44b-40ee-bbd8-4e9c2dff8111)
+![Screenshot 2023-08-23 205050](https://github.com/Kranox21/ChannelMachine/assets/11131166/9a05a817-4af8-4a52-9db4-babf6b420c26)
 
  - RGBA Preview
    - This will preview a low-resolution sample output from your inputs from RGB Inputs
@@ -52,7 +51,7 @@
 
  ### Unpack Channels:
 
-![Screenshot 2023-08-04 000956](https://github.com/Kranox21/ChannelMachine/assets/11131166/ba63805e-f6e2-47fb-8495-f4f6a2cd220a)
+![Screenshot 2023-08-23 205153](https://github.com/Kranox21/ChannelMachine/assets/11131166/a6ff31c1-190e-4928-b8fc-03d890d74443)
 
  - Grayscale Preview
    - Across the board will be 4 boxes of previews.
@@ -68,7 +67,7 @@
 
 ## Export Settings:
 
-![Screenshot 2023-08-04 000450](https://github.com/Kranox21/ChannelMachine/assets/11131166/a0a708c6-4185-41bf-b3f7-394cc1bd7cbd)
+![Screenshot 2023-08-23 205250](https://github.com/Kranox21/ChannelMachine/assets/11131166/6a222818-6294-439e-bf6c-52777a500c88)
 
 - Project Folder Location
   - This is where you input your folder path where you wish to place your texture outputs will be.
@@ -101,7 +100,16 @@
     - Whether to overwrite a file that exists in the folder location or not
   - Async
     - This is a runtime feature mainly for games that can be on or off
-   
+
+## Config Settings
+
+![Screenshot 2023-08-23 205330](https://github.com/Kranox21/ChannelMachine/assets/11131166/3149b00b-b38e-4e93-bcd3-1e063ccfb24a)
+
+- Config Data
+  - Config Data Settings is an Data Asset that stores the variable information, these will be your configuration presets. Open the drop down menu and will have number of options under the same parent blueprint name.
+  - Preset Name This determines the name of your preset when you click the Save As button, Don't worry about setting prefix as will automatically add DA_ for you
+  - Save will override the current data preset assigned in the Config Data Setting to the current setting in the Config Setup
+  - Save As will take the current Config Setup variables and create a brand-new data asset for you with the given name you assigned
 
 ## Material Assembly:
 
