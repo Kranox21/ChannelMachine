@@ -1,6 +1,6 @@
 ![ChannelMachineLogoTitle](https://github.com/Kranox21/ChannelMachine/assets/11131166/ce3af0e2-17fd-48b9-b311-079d85146329)
 
-# Texture packing and unpacking channel tool built-in Unreal Engine
+# Texture packing and unpacking channel tool for Unreal Engine
 
 ## Getting Started:
 - To open the Channel Machine Editor click the icon at the top of the toolbar to launch the Utility Widget Tool
