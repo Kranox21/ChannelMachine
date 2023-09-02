@@ -20,7 +20,7 @@
 ![Screenshot 2023-08-23 204805](https://github.com/Kranox21/ChannelMachine/assets/11131166/ae8abc2f-deb8-44de-95c0-53fe1452b956)
 - Enable Batch Settings
   - This will determine whether to set Texture input from an array list or indivisual inputs.
-  - This will also determine if Channel Machine should Batch Bake or not.
+  - This will also determine if Channel Machine should Batch Generate or not.
 
 ![Screenshot 2023-08-23 205050](https://github.com/Kranox21/ChannelMachine/assets/11131166/9a05a817-4af8-4a52-9db4-babf6b420c26)
 
@@ -30,7 +30,7 @@
   - Pack Settings
     - Enable Alpha Channel
       - Will show/hide Alpha Settings
-      - Will determine whether to bake Alphas or not
+      - Will determine whether to generate Alphas or not
       - ‘Note’ baking alpha channels will cost extra storage space and impact extra performance.
       - As of currently if you are trying to export into PNG without Alpha, the baking process will automatically set export write settings to JPG format, To bypass this enable alpha and fill with a blank white texture.
      - Channel Input
@@ -47,7 +47,7 @@
      - Batch Pack Settings
        - Channel Batch Textures Input
          - Drop a batch of textures you wish to add into a particular channel
-         - Must make sure the number of textures matches across all channels or the bake will encounter an error
+         - Must make sure the number of textures matches across all channels or the generator will encounter an error
 
  ### Unpack Channels:
 
