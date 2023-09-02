@@ -113,7 +113,8 @@
 
 ## Material Assembly:
 
-![Screenshot 2023-08-04 000034](https://github.com/Kranox21/ChannelMachine/assets/11131166/ab912987-0a3f-49b3-ac1a-a437170689ee)
+![image](https://github.com/Kranox21/ChannelMachine/assets/11131166/cd9d358f-15b8-4a83-b4aa-acb12bc92aff)
+
 
 - Master Material Input
   - Determines the selected master material you wish to use to create a material instance
