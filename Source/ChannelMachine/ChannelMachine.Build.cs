@@ -1,4 +1,5 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+//Copyright (c) 2023 ashton3ddesigns. 
+// This code is licensed under the MIT License. https://github.com/Kranox21/ChannelMachine/blob/main/LICENSE
 
 using UnrealBuildTool;
 

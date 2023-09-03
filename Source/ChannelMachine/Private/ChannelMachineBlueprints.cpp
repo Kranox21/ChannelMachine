@@ -1,4 +1,5 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+//Copyright (c) 2023 ashton3ddesigns. 
+// This code is licensed under the MIT License. https://github.com/Kranox21/ChannelMachine/blob/main/LICENSE
 
 
 #include "ChannelMachineBlueprints.h"
