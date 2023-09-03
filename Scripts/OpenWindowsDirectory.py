@@ -1,3 +1,5 @@
+# Opens directory to select folder still needs testing for MAC OS and LINUX
+
 import tkinter
 from tkinter import filedialog
 import os
