@@ -26,8 +26,6 @@ public class ChannelMachine : ModuleRules
 			new string[]
 			{
 				"Core",
-				"Engine",
-				"ChannelMachine"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
