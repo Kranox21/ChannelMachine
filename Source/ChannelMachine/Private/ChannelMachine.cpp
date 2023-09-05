@@ -1,5 +1,4 @@
-//Copyright (c) 2023 ashton3ddesigns. 
-// This code is licensed under the MIT License. https://github.com/Kranox21/ChannelMachine/blob/main/LICENSE
+// Copyright 2023 ashton3ddesigns All rights reserved.
 
 #include "ChannelMachine.h"
 #include "ChannelMachineStyle.h"

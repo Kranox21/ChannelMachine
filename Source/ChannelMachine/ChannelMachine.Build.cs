@@ -1,5 +1,4 @@
-//Copyright (c) 2023 ashton3ddesigns. 
-// This code is licensed under the MIT License. https://github.com/Kranox21/ChannelMachine/blob/main/LICENSE
+// Copyright 2023 ashton3ddesigns All rights reserved.
 
 using UnrealBuildTool;
 
@@ -27,6 +26,8 @@ public class ChannelMachine : ModuleRules
 			new string[]
 			{
 				"Core",
+				"Engine",
+				"ChannelMachine"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
