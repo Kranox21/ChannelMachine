@@ -3,8 +3,10 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Engine/Texture2D.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "ChannelMachineBlueprints.generated.h"
+
 
 /**
  * 
@@ -17,6 +19,8 @@ class CHANNELMACHINE_API UChannelMachineBlueprints : public UBlueprintFunctionLi
 		static void SetContentBrowserPath(FString Path);
 
 		UFUNCTION(BlueprintCallable, Category = "Channel Machine Blueprints")
-		static void SetHasAlphaChannel(UTexture* Texture2D, bool False);
-	
+		static void SetHasAlphaChannel(UTexture* Texture2D, bool CompressNoAlpha);
+
+		UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Channel Machine Blueprints")
+		static bool GetHasAlphaChannel(UTexture2D* Texture);
 };

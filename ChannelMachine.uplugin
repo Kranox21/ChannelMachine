@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0.0",
+	"VersionName": "1.0.1",
 	"FriendlyName": "Channel Machine",
 	"Description": "An Open Source texture editor tool to pack/unpack texture channels.",
 	"Category": "Editor",
@@ -10,11 +10,19 @@
 	"DocsURL": "https://github.com/Kranox21/ChannelMachine/blob/main/ReadMe.md",
 	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/1203c14fac16490bacab6a7d3577edff",
 	"SupportURL": "https://github.com/Kranox21/ChannelMachine/issues",
-	"EngineVersion": "5.3.0",
+	"EngineVersion": "5.3.1"
+	"License": "Copyright 2023 ashton3ddesigns All rights reserved.",
 	"CanContainContent": true,
-	"Installed": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
 	"SupportedTargetPlatforms": [
-		"Win64"
+		"Win64",
+		"Win32"
+	],
+	"SupportedEngineVersions": [
+		"5.3",
+		"5.2"
 	],
 	"Modules": [
 		{
@@ -22,7 +30,8 @@
 			"Type": "Editor",
 			"LoadingPhase": "Default",
 			"PlatformAllowList": [
-				"Win64"
+				"Win64",
+				"Win32"
 			]
 		}
 	],
