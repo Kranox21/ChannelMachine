@@ -26,7 +26,9 @@ public class ChannelMachine : ModuleRules
 			new string[]
 			{
 				"Core",
-				"Engine"
+				"CoreUObject",
+				"Engine",
+				"UMG"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);

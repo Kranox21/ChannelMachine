@@ -10,19 +10,16 @@
 	"DocsURL": "https://github.com/Kranox21/ChannelMachine/blob/main/ReadMe.md",
 	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/1203c14fac16490bacab6a7d3577edff",
 	"SupportURL": "https://github.com/Kranox21/ChannelMachine/issues",
-	"EngineVersion": "5.3.1"
 	"License": "Copyright 2023 ashton3ddesigns All rights reserved.",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
 	"Installed": false,
 	"SupportedTargetPlatforms": [
-		"Win64",
-		"Win32"
+		"Win64"
 	],
 	"SupportedEngineVersions": [
-		"5.3",
-		"5.2"
+		"5.3"
 	],
 	"Modules": [
 		{
