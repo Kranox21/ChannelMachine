@@ -69,9 +69,9 @@ void FChannelMachineModule::RegisterMenus()
 	FToolMenuOwnerScoped OwnerScoped(this);
 
 	{
-		UToolMenu* Menu = UToolMenus::Get()->ExtendMenu("LevelEditor.MainMenu.Window");
+		UToolMenu* Menu = UToolMenus::Get()->ExtendMenu("LevelEditor.MainMenu.Tools");
 		{
-			FToolMenuSection& Section = Menu->FindOrAddSection("WindowLayout");
+			FToolMenuSection& Section = Menu->FindOrAddSection("Tools");
 			Section.AddMenuEntryWithCommandList(FChannelMachineCommands::Get().PluginAction, PluginCommands);
 		}
 	}
@@ -79,7 +79,7 @@ void FChannelMachineModule::RegisterMenus()
 	{
 		UToolMenu* ToolbarMenu = UToolMenus::Get()->ExtendMenu("LevelEditor.LevelEditorToolBar.PlayToolBar");
 		{
-			FToolMenuSection& Section = ToolbarMenu->FindOrAddSection("PluginTools");
+			FToolMenuSection& Section = ToolbarMenu->FindOrAddSection("ChannelMachinePlugin");
 			{
 				FToolMenuEntry& Entry = Section.AddEntry(FToolMenuEntry::InitToolBarButton(FChannelMachineCommands::Get().PluginAction));
 				Entry.SetCommandList(PluginCommands);

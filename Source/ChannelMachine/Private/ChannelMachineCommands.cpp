@@ -6,7 +6,7 @@
 
 void FChannelMachineCommands::RegisterCommands()
 {
-	UI_COMMAND(PluginAction, "ChannelMachine", "Launch Channel Machine Editor", EUserInterfaceActionType::Button, FInputChord());
+	UI_COMMAND(PluginAction, "Channel Machine", "Launch Channel Machine Editor", EUserInterfaceActionType::Button, FInputChord());
 }
 
 #undef LOCTEXT_NAMESPACE
